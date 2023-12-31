@@ -14,13 +14,13 @@ const Homepage = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
       </div>
       <div className="relative z-10 text-white text-center">
-        <div className="glow text-5xl font-extrabold mb-4 animate__animated animate__fadeInUp">
+        <div className="glow md:text-5xl text-2xl font-extrabold mb-4 animate__animated animate__fadeInUp">
           Welcome to My Portfolio
         </div>
-        <p className="text-lg mb-8 text-center animate__animated animate__fadeIn">
+        <p className="md:text-lg mb-8 text-center animate__animated animate__fadeIn">
           Explore my work and journey in the world of technology.
         </p>
-       <button  className="bg-white text-indigo-800 font-bold w-48 py-3 px-8 rounded-full transition duration-300 hover:bg-indigo-800 hover:text-white shadow-lg animate__animated animate__fadeIn ">
+       <button  className="bg-white text-indigo-800 font-bold md:w-48 w-40 py-3 px-8 rounded-full transition duration-300 hover:bg-indigo-800 hover:text-white shadow-lg animate__animated animate__fadeIn ">
        <Link
           to={"/about"}
          

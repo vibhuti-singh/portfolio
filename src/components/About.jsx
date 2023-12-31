@@ -61,7 +61,7 @@ const About = () => {
             <h2 className="text-sm font-extrabold mb-4 glow">My Skills are</h2>
             <Slider {...settings}>
               {skills.map((skill, index) => (
-                <div key={index} className="text-sm bg-violet-950 glow">
+                <div key={index} className="text-sm mx-4 bg-violet-950 glow">
                   {skill.name}
                 </div>
               ))}

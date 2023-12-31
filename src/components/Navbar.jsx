@@ -57,10 +57,10 @@ const Navbar = () => {
           <div className="text-white p-5 px-20 relative">
             <div className="flex items-center justify-between">
               {/* Logo/Name */}
-              <div className=" glow text-3xl font-bold">{pathname==='/'?"Vibhuti Sengar": <img className='h-16 w-16' src={logo} alt="" />}</div>
+              <div className=" glow md:text-3xl font-bold">{pathname==='/'?"Vibhuti Sengar": <img className='h-16 w-16' src={logo} alt="" />}</div>
 
               {/* Menu Icon */}
-              <div className="glow cursor-pointer text-3xl" onClick={toggleMenu}>
+              <div className="glow cursor-pointer md:text-3xl" onClick={toggleMenu}>
                 <TiThMenu />
               </div>
             </div>

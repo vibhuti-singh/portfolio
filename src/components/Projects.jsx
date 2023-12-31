@@ -27,6 +27,7 @@ const Projects = () => {
         breakpoint: 768, // Adjust this breakpoint based on your design needs
         settings: {
           slidesToShow: 1,
+          infinite: false,
         },
       },
     ],

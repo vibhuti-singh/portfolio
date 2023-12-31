@@ -33,15 +33,15 @@ const Experience = () => {
 
   return (
     <CSSTransition in={true} appear={true} timeout={500} classNames="fade">
-    <div className="text-gray-800 w-full h-full animate__animated animate__fadeIn experience-container flex flex-col items-center justify-center">
+    <div className=" w-full h-full animate__animated animate__fadeIn experience-container flex flex-col items-center justify-center">
       <h1 className="md:text-4xl text-xl font-extrabold mb-1 md:mb-8 text-indigo-600 text-center glow">Professional Experience</h1>
       <div className="grid gap-2 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {experiences.map((experience, index) => (
           <div
             key={index}
-            className={`relative bg-gradient-to-r from-purple-300 via-indigo-400 to-purple-500 md:p-6 p-2 rounded-lg shadow-lg border border-gray-400 transition-transform transform hover:scale-105 hover:shadow-2xl experience-card ${
+            className={`relative contact-gredient md:p-6 p-2 rounded-lg shadow-lg border border-gray-400 transition-transform transform hover:scale-105 hover:shadow-2xl experience-card ${
               hoveredIndex === index ? 'z-10' : ''
-            }`}
+            }`} 
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
