@@ -16,11 +16,11 @@ const About = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false, // Set arrows to false to hide navigation arrows
     autoplay: true,
-    autoplaySpeed: 500 ,
+    autoplaySpeed: 700 ,
     
   };
   const skills = [
@@ -61,7 +61,7 @@ const About = () => {
             <h2 className="text-sm font-extrabold mb-4 glow">My Skills are</h2>
             <Slider {...settings}>
               {skills.map((skill, index) => (
-                <div key={index} className="text-sm mx-4 bg-violet-950 glow">
+                <div key={index} className="text-sm bg-violet-950 text-center w-3/12 glow">
                   {skill.name}
                 </div>
               ))}

@@ -24,7 +24,7 @@ const Projects = () => {
     beforeChange: (current, next) => setCurrentSlide(next),
     responsive: [
       {
-        breakpoint: 768, // Adjust this breakpoint based on your design needs
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           infinite: false,
@@ -88,7 +88,7 @@ const Projects = () => {
     </div>
    <div className='w-full flex items-center justify-center mt-5'>
    <button className='border-2 border-gradient border-whiten rounded-full p-2  '><Link className='flex items-center justify-around' to={"/contact"}>
-   Let's Connect <BsEmojiSmileFill className='mx-2 text-2xl text-yellow-500' />
+   Let's Connect <BsEmojiSmileFill className='mx-2 text-2xl text-yellow-500 animate-bounce hover:animate-ping' />
    </Link></button>
    </div>
   </div>

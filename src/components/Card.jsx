@@ -9,14 +9,13 @@ const Card = ({ title, description, videoUrl, skills, websiteLink }) => {
   };
 
   return (
-    <div className="border-gradient w-11/12 h-10/12 overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+    <div className="card  w-11/12 h-9/12 shadow-lg transition-transform transform hover:scale-105">
       <div className="w-full h-1/3 overflow-hidden">
         <iframe
           className="h-full w-full object-cover"
           src={videoUrl}
           title={`Video for ${title}`}
-          frameBorder="0"
-          allow="accelerometer; autoplay;"
+        allow="accelerometer; autoplay;"
           allowFullScreen
         ></iframe>
       </div>
@@ -35,7 +34,7 @@ const Card = ({ title, description, videoUrl, skills, websiteLink }) => {
           <strong className="text-gray-200">Skills:</strong>{' '}
           <span className="text-gray-400">{skills.join(', ')}</span>
         </div>
-        <div className="text-sm border-2 border-yellow-300 h-8 rounded-full flex items-center justify-center">
+        <div className="md:text-sm text-xs border-2 border-yellow-300 md:h-8  h-5 rounded-full flex items-center justify-center">
           <a
             href={websiteLink}
             target="_blank"
