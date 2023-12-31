@@ -18,9 +18,9 @@ const About = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false, // Set arrows to false to hide navigation arrows
+    arrows: false, 
     autoplay: true,
-    autoplaySpeed: 700 ,
+    autoplaySpeed: 1000 ,
     
   };
   const skills = [
