@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-const Progressbar = () => {
+const Progress = () => {
   const points = [
     { value: 'Home', position: '0%' },
     { value: 'About', position: '25%' },
@@ -45,4 +45,4 @@ const Progressbar = () => {
   );
 };
 
-export default Progressbar;
+export default Progress;

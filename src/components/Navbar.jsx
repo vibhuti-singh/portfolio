@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { TiThMenu } from 'react-icons/ti';
-import Progressbar from './Progressbar';
 import Homepage from './Homepage';
 import About from './About';
 import Experience from './Experience';
@@ -15,6 +14,7 @@ import profileImage from "../assets/project.png";
 import expImage from "../assets/experience.png";
 import contactImage from "../assets/contact.png";
 import logo from "..//assets/logo.png"
+import Progress from './Progress';
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [activePage, setActivePage] = useState('home');
@@ -65,7 +65,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Progressbar activePage={activePage} />
+          <Progress activePage={activePage} />
 
           {isMenuOpen && (
             <div className="toggle-box fixed top-20 left-0 flex items-center justify-between z-50 " data-aos="zoom-out-up">
