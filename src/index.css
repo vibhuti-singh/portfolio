@@ -45,16 +45,18 @@ float: right;
 
 .nav-container{
   height: 80%;
-  width: 90%;
+  width: 99%;
   clip-path: polygon(0 0, 100% 13%, 100% 85%, 0% 100%);    
-  background-color: beige;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(49,20,111,1) 51%, rgba(0,0,0,1) 100%);
+  
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .current-screen{
   height: 98%;
-  width: 99%;
+  width: 85%;
   position: relative;
   clip-path: polygon(0 0, 100% 13%, 100% 85%, 0% 100%);
     background-color:black;
