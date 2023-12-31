@@ -19,8 +19,6 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: true,
-    focusOnSelect: true,
     beforeChange: (current, next) => setCurrentSlide(next),
     responsive: [
       {
@@ -28,7 +26,9 @@ const Projects = () => {
         settings: {
           slidesToShow: 1,
           infinite: false,
+          
         },
+        
       },
     ],
   };
