@@ -115,13 +115,13 @@ box-shadow: 1px 1px 26px 1px rgba(0,0,0,0.75);
 
 @keyframes glowing {
   0% {
-    text-shadow: 0 0 10px #2f1563, 0 0 20px #2f1563, 0 0 30px #2f1563;
+    text-shadow: 0 0 15px #2f1563, 0 0 20px #2f1563, 0 0 30px #2f1563;
   }
   50% {
-    text-shadow: 0 0 20px #2f1563, 0 0 30px #2f1563, 0 0 40px #2f1563;
+    text-shadow: 0 0 35px #2f1563, 0 0 30px #2f1563, 0 0 40px #2f1563;
   }
   100% {
-    text-shadow: 0 0 10px #2f1563, 0 0 20px #2f1563, 0 0 30px #2f1563;
+    text-shadow: 0 0 15px #2f1563, 0 0 20px #2f1563, 0 0 30px #2f1563;
   }
 }
 
